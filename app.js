@@ -7,6 +7,9 @@ var app = express();
 var path = require('path');
 var ejs = require('ejs');
 
+// Adding dotenv to Env Variable
+const dotenv = require('dotenv');
+dotenv.config();
 
 app.set('views', __dirname + '/views');
 app.engine('html', require('ejs').renderFile);
@@ -32,6 +35,9 @@ switch (process.env.ENV){
     default:
 	msg = 'Environment not defined'
 }
+// Testing Env Variable
+console.log(`Your port is ${process.env.ENV}`); 
+console.log(`Your port is ${process.env.PORT}`);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
