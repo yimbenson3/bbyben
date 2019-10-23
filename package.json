@@ -1,0 +1,19 @@
+{
+  "name": "bbyben",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bestbuy.ca.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yimbenson3/bbyben.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yimbenson3/bbyben/issues"
+  },
+  "homepage": "https://github.com/yimbenson3/bbyben#readme"
+}
