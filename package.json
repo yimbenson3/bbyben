@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yimbenson3/bbyben/issues"
   },
-  "homepage": "https://github.com/yimbenson3/bbyben#readme"
+  "homepage": "https://github.com/yimbenson3/bbyben#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
