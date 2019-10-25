@@ -1,6 +1,5 @@
 version: 0.2
 
-runtime: nodejs10
 phases:
   install:
     runtime-versions: 
